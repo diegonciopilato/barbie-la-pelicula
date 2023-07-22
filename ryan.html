@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografía de Ryan Gosling</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onclick="playAudio()">
+  <div class="container">
+    <h1>Biografía de Ryan Gosling</h1>
+    <div class="content">
+      <div class="photo">
+        <img src="images/ryan1.jpg" alt="Foto 1 de Ryan Gosling">
+      </div>
+      <div class="photo">
+        <img src="images/ryan2.jpg" alt="Foto 2 de Ryan Gosling">
+      </div>
+      <p>Descripción de Ryan Gosling</p>
+      <audio id="backgroundAudio" src="audios/audio.mp3" loop></audio>
+      <video id="videoPlayer" src="videos/ryan_video.mp4" controls onplay="pauseAudio()" onended="resumeAudio()"></video>
+    </div>
+  </div>
+
+  <script>
+    function playAudio() {
+      var audio = document.getElementById('backgroundAudio');
+      audio.play();
+    }
+    
+    function pauseAudio() {
+      var audio = document.getElementById('backgroundAudio');
+      audio.pause();
+    }
+    
+    function resumeAudio() {
+      var audio = document.getElementById('backgroundAudio');
+      audio.play();
+    }
+  </script>
+  <script>
+    alert('I drive')
+  </script>
+</body>
+</html>

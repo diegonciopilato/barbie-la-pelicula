@@ -1,0 +1,55 @@
+body {
+  background-color: #ffcdf2;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff00cc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.photo {
+  margin-bottom: 10px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container button {
+  background-color: #ff00cc;
+  color: #ffcdf2;
+  border-radius: 10px;
+  border: 10px;
+  border-radius: 7px;
+  margin-right: 3px;
+  padding: 10px 4px;
+  margin-bottom: 6px;
+}
+.button-container button.volver {
+  background-color: #ff00cc;
+}
+ 
+video {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
